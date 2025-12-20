@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "カウントアップアプリ",
+    "description": "Reactの授業で作成したシンプルなカウントアップアプリです。",
+    "image": "https://placehold.jp/300x200.png",
+    "url": "https://github.com/2350ST0009/2025_React_kadai.git"
+  },
+  {
+    "id": 2,
+    "title": "DeckOfCardsAPIを使ったカードゲーム",
+    "description": "現在チームで開発中で、DeckOfCardsAPIを利用して、様々なカードゲームを実装するプロジェクトです。",
+    "image": "/images/cardgame.png",
+    "url": "https://github.com/2350ST0009/2025_ITproject_CardGame-beta.git"
+  }
+]
