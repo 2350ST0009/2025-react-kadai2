@@ -8,8 +8,8 @@ const About = () => {
         <section style={sectionStyle}>
           <h3>自己紹介</h3>
           <p>
-            2025年度、IT・Web制作を学んでいる学生です。
-            現在はReactを中心に、フロントエンド開発の学習に励んでいます。
+            IT・Web制作を学んでいる学生です。
+            現在はReactやphpなどwebアプリケーション開発に興味を持ち、日々勉強中です。
           </p>
         </section>
 
@@ -29,8 +29,7 @@ const About = () => {
         <section style={sectionStyle}>
           <h3>Goals</h3>
           <p>
-            使いやすく、見た目も美しいWebアプリケーションを作れるエンジニアを目指しています。
-            現在は、チーム開発での効率的な連携方法についても勉強中です。
+            現在はITパスポートや基本情報技術者試験の取得を目指しています。
           </p>
         </section>
       </div>
