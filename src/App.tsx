@@ -8,9 +8,11 @@ import Works from './pages/Works';
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen">
+      {/* ↓ 画面全体の高さを確保し、縦並びのFlexに設定 */}
+      <div style={appWrapperStyle}>
         <Header />
-        <main className="flex-grow">
+        {/* ↓ mainに flex-grow を持たせて、余ったスペースを占有させる */}
+        <main style={mainContentStyle}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -22,4 +24,15 @@ function App() {
     </BrowserRouter>
   );
 }
+
+const appWrapperStyle: React.CSSProperties = {
+  display: 'flex',
+  flexDirection: 'column',
+  minHeight: '100vh', // 最低でも画面いっぱいの高さを確保
+};
+
+const mainContentStyle: React.CSSProperties = {
+  flexGrow: 1, // コンテンツが少なくても、フッターを下に押し出す
+};
+
 export default App;

@@ -15,3 +15,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+a[style*="background-color: rgb(187, 134, 252)"]:hover {
+  transform: translateY(-3px); /* 少し上に浮く */
+  background-color: #d7b7ff !important; /* 少し明るい紫に */
+  box-shadow: 0 6px 20px rgba(187, 134, 252, 0.5) !important;
+}
